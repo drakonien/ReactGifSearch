@@ -14,7 +14,6 @@ export const GifExpertApp = () => {
     }
 
     const onCleanCategories = () => {
-        console.log("onCleanCategories");
         setCategories([]);
     }
 
