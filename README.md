@@ -1,3 +1,3 @@
 # ReactGifSearch
-Test projec using React.
+Test project using React.
 It search using the Gihpy API
