@@ -11,7 +11,6 @@ export const AddCategory = ({ onNewCategory, onCleanCategories }) => {
     const onSubmit = (event) => {
         event.preventDefault();
         const cleanInput = inputValue.trim();
-        console.log(cleanInput);
 
         if (cleanInput.length == 0) { return; }
 
@@ -21,7 +20,6 @@ export const AddCategory = ({ onNewCategory, onCleanCategories }) => {
 
     const onClean = (event) => {
         event.preventDefault();
-        console.log("onClean");
         onCleanCategories();
     }
 
